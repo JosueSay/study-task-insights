@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@prisma/client':
-        specifier: ^6.18.0
-        version: 6.18.0(prisma@6.18.0)
+        specifier: ^6.19.0
+        version: 6.19.0(prisma@6.18.0)
       cookie-parser:
         specifier: ^1.4.7
         version: 1.4.7
@@ -52,8 +52,8 @@ packages:
   '@dabh/diagnostics@2.0.8':
     resolution: {integrity: sha512-R4MSXTVnuMzGD7bzHdW2ZhhdPC/igELENcq5IjEverBvq5hn1SXCWcsi6eSsdWP0/Ur+SItRRjAktmdoX/8R/Q==}
 
-  '@prisma/client@6.18.0':
-    resolution: {integrity: sha512-jnL2I9gDnPnw4A+4h5SuNn8Gc+1mL1Z79U/3I9eE2gbxJG1oSA+62ByPW4xkeDgwE0fqMzzpAZ7IHxYnLZ4iQA==}
+  '@prisma/client@6.19.0':
+    resolution: {integrity: sha512-QXFT+N/bva/QI2qoXmjBzL7D6aliPffIwP+81AdTGq0FXDoLxLkWivGMawG8iM5B9BKfxLIXxfWWAF6wbuJU6g==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -767,7 +767,7 @@ snapshots:
       enabled: 2.0.0
       kuler: 2.0.0
 
-  '@prisma/client@6.18.0(prisma@6.18.0)':
+  '@prisma/client@6.19.0(prisma@6.18.0)':
     optionalDependencies:
       prisma: 6.18.0
 

@@ -36,8 +36,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       echarts-for-react:
-        specifier: ^3.0.2
-        version: 3.0.2(echarts@6.0.0)(react@19.2.0)
+        specifier: ^3.0.5
+        version: 3.0.5(echarts@6.0.0)(react@19.2.0)
       react:
         specifier: ^19.2.0
         version: 19.2.0
@@ -850,10 +850,10 @@ packages:
     resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
     engines: {node: '>=12'}
 
-  echarts-for-react@3.0.2:
-    resolution: {integrity: sha512-DRwIiTzx8JfwPOVgGttDytBqdp5VzCSyMRIxubgU/g2n9y3VLUmF2FK7Icmg/sNVkv4+rktmrLN9w22U2yy3fA==}
+  echarts-for-react@3.0.5:
+    resolution: {integrity: sha512-YpEI5Ty7O/2nvCfQ7ybNa+S90DwE8KYZWacGvJW4luUqywP7qStQ+pxDlYOmr4jGDu10mhEkiAuMKcUlT4W5vg==}
     peerDependencies:
-      echarts: ^3.0.0 || ^4.0.0 || ^5.0.0
+      echarts: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
       react: ^15.0.0 || >=16.0.0
 
   echarts@6.0.0:
@@ -2132,7 +2132,7 @@ snapshots:
 
   dotenv@17.2.3: {}
 
-  echarts-for-react@3.0.2(echarts@6.0.0)(react@19.2.0):
+  echarts-for-react@3.0.5(echarts@6.0.0)(react@19.2.0):
     dependencies:
       echarts: 6.0.0
       fast-deep-equal: 3.1.3
